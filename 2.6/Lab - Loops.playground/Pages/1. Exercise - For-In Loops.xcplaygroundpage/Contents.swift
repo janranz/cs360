@@ -23,8 +23,8 @@ for n in alphabet
  */
 var state: [String:String] = [
     "Idaho":"Boise",
-    "Washington":"Seattle",
-    "Oregon":"Portland"
+    "Washington":"Olympia",
+    "Oregon":"Salem"
 ]
 
 for n in state.keys
