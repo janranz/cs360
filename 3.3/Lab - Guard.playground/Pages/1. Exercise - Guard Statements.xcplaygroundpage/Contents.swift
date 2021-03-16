@@ -13,10 +13,19 @@ func calculateArea(x: Double, y: Double) -> Double?
     }
     return x * y;
 }
-let posNum = calculateArea(x: 5, y: 5)
-let negNum = calculateArea(x: -5, y: -5)
+//let posNum = calculateArea(x: 5, y: 5)
+//let negNum = calculateArea(x: -5, y: -5)
+//
+//print("PosNum:\(posNum!)\tNegNum:\(negNum)")
 
-print("PosNum:\(posNum!)\tNegNum:\(negNum)")
+if let posNum = calculateArea(x: 5, y: 5)
+{
+    print("PosNum:\(posNum)")
+}
+if let negNum = calculateArea(x: -5, y: -5)
+{
+    print ("negNum: \(negNum)")
+}
 /*:
  Create a function called `add` that takes two optional integers as parameters and returns an optional integer. You should use one `guard` statement to unwrap both optional parameters, returning `nil` in the `guard` body if one or both of the parameters doesn't have a value. If both parameters can successfully be unwrapped, return their sum. Call the function once with non-`nil` numbers and once with at least one parameter being `nil`.
  */
