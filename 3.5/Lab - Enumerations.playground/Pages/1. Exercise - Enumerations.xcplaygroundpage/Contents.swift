@@ -66,6 +66,6 @@ struct Card
 var cardOne : Card = .init(suit: .hearts, value: .two)
 var cardTwo = Card(suit: .spades, value: .ace)
 print("Card One is a \(cardOne.value) of \(cardOne.suit)!")
-print("Card Two is a \(cardTwo.value) of \(cardTwo.suit)!")
+//print("Card Two is a \(cardTwo.value) of \(cardTwo.suit)!")
 
 //: page 1 of 2  |  [Next: App Exercise - Swimming Workouts](@next)
