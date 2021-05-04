@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import PersonalityQuiz
+//import PersonalityQuiz
 
 struct Question
 {
@@ -29,17 +29,19 @@ struct Answer
 
 enum FoodType:Character
 {
-    case pizza = "🍕", eggplant = "🍆", sushi = "🍱";
+    case pizza = "🍕", eggplant = "🍆", sushi = "🍱", baguette = "🥖";
 
     var definition:String
     {
         switch self{
         case .pizza:
-            return "You are a dog";
+            return "You like pizza!";
         case .eggplant:
-            return "You like eggplant";
+            return "You like eggplant!";
         case .sushi:
-            return "You like sushi";
+            return "You like sushi!";
+        case .baguette:
+            return "You like baguettes!";
         }
     }
 };
