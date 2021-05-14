@@ -1,0 +1,38 @@
+Three apps used:
+	Apollo (Reddit)
+	FlightRadar24
+	Golf Blitz
+
+Noteworthy Features:
+	Apollo:
+		* Plenty of added features that many Reddit users have sought out. Develops have
+		implemented it in a way that allows all users to have the same functionality,
+		instead of having them perform complex tasks.
+		
+		* Intuitive gestures and sleek UI.
+
+	FlightRadar24:
+		* Presents live data upon loading, and the data is presented in a meaningful manner.
+		* Highly graphical, even in data being shown.
+
+	Golf Blitz:
+		* Responsive and intuitive.
+		* Colorful and lively.
+
+
+Favorites:
+	Apollo:
+		Small, personal notes left by the developer that gives a friendly feel.
+		Customizable icons and accomodations to tailor the app to how you want to use it.
+		Plenty of features that are executed via gesture.
+
+	FlightRadar24:
+		Pushes notifications on emergency squawks, allowing you to jump directly to flight.
+		Has playback functionality to replay routes in the past year.
+		Connections to social media accounts to stay up to date on particular flights.
+
+	Golf Blitz:
+		Unique animations and simplified controls.
+		Consistent "sillyness" to the text and emotes.
+		Tons of items and ways to level that allow the user the freedom to be unique.
+
